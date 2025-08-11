@@ -27,7 +27,7 @@ const libros = [
   <div class="layout">
     <!-- Sidebar -->
     <aside class="sidebar">
-      <h2 class="logo">📚 Biblioteca</h2>
+      <h2 class="logo">📚 Biblioteca Prueba</h2>
       <nav class="menu">
         <a href="#">Clientes</a>
         <a href="#">Órdenes</a>
