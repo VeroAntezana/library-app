@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: library-service
+spec:
+  selector:
+    app: library-app # match pod label in deployment.yml
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
